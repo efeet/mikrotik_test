@@ -1,0 +1,5 @@
+ansible_network_os: routeros
+ansible_connection: network_cli
+
+routeros_disable_password_login: False
+routeros_secure_address: 172.99.99.0/24
