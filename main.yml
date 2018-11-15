@@ -1,5 +1,6 @@
-# Main Playbook to begin test with Mikrotik Devices.
+# Playbook import another Playbook's in roles directory.
 ---
-- name: Begin test with Mikrotik Devices
-  hosts: mikrotik
-  
+- name: Import another playbooks
+  hosts: all
+  roles:
+    - dns
