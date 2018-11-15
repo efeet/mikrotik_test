@@ -1,0 +1,5 @@
+# Main Playbook to begin test with Mikrotik Devices.
+---
+- name: Begin test with Mikrotik Devices
+  hosts: mikrotik
+  
