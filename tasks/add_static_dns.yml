@@ -1,0 +1,6 @@
+# Playbook to add static DNS entry.
+---
+- name: Adding static DNS entry
+  routeros_command:
+    commands: /ip dns static add name=nada.lab.example.com address=172.99.99.100
+    
